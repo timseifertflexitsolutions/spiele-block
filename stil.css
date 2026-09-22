@@ -1,0 +1,14 @@
+:root { --bg: #090A0F; --karte: #14161F; --text: #ECEDF2; --leise: #A3A7B5; --akzent: #5BE3C8; --linie: #262A36; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 16px 64px; }
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 32px; }
+header img { width: 72px; height: 72px; border-radius: 16px; }
+h1 { font-size: 30px; margin: 0; line-height: 1.2; }
+header p { margin: 4px 0 0; color: var(--leise); }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, li { color: var(--text); }
+.leise { color: var(--leise); font-size: 15px; }
+a { color: var(--akzent); }
+.karte { background: var(--karte); border: 1px solid var(--linie); border-radius: 16px; padding: 4px 20px; margin: 16px 0; }
+nav { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--linie); display: flex; gap: 24px; flex-wrap: wrap; }
